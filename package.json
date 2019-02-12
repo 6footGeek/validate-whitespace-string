@@ -14,8 +14,18 @@
     "prepublishOnly": "npm run build",
     "test": "npm run lint && npm run jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andy Barlow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6footGeek/validate-whitespace-string.git"
+  },
+  "keywords": [
+    "whitespace",
+    "string",
+    "text",
+    "validator"
+  ],
+  "license": "MIT",
   "module": "src/index.js",
   "engines": {
     "node": ">=8"

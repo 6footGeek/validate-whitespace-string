@@ -18,4 +18,4 @@ validateWhitespaceString(123); // throws error
 
 ## License
 
-[ISC](LICENSE)
+[MIT](LICENSE)
