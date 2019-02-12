@@ -10,7 +10,10 @@ $ [sudo] npm install @6footgeek/validate-whitespace-string
 ```js
 import {validateWhitespaceString} from '@6footgeek/validate-whitespace-string';
 
-add(1, 2); // 3
+validateWhitespaceString('test this string'); // true
+validateWhitespaceString('     '); // false
+
+validateWhitespaceString(123); // throws error
 ```
 
 ## License
